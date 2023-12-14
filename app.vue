@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1 class="bg-brand-darker text-white text-4xl">Welcome to coding zone</h1>
+    <NuxtLayout>
+    <NuxtPage></NuxtPage>
+  </NuxtLayout>
   </div>
 </template>
 <script setup>
